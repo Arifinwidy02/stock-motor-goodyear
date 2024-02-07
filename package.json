@@ -1,0 +1,23 @@
+{
+  "name": "stock-motor-goodyear",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Arifinwidy02/stock-motor-goodyear.git",
+  "author": "Arifinwidy02 <arifin@transfez.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bwip-js": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "qrcode": "^1.5.3",
+    "sequelize": "^6.36.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

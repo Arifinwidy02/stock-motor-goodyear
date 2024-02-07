@@ -1,0 +1,234 @@
+{
+  "Motor_table": [
+    {
+      "id_number": "BTA-M-MIX-BB1-001",
+      "remarks": "Batch Off Mill",
+      "manufacturer": "Kirloskar",
+      "voltage": "440",
+      "hp": "250",
+      "ac_dc": "ac",
+      "statusId": 1,
+      "imgUrl": "../public/images/motor_1.jpeg"
+    },
+    {
+      "id_number": "BTA-M-MIX-BB2-001",
+      "remarks": "Mixer",
+      "manufacturer": "Toshiba",
+      "voltage": 2300,
+      "hp": 800,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_2.jpeg"
+    },
+    {
+      "id_number": "BTA-M-MIX-BB2-002",
+      "remarks": "Batch Off Mill",
+      "manufacturer": "Toshiba",
+      "voltage": 460,
+      "hp": 200,
+      "ac_dc": "ac",
+      "statusId": 4,
+      "imgUrl": "../public/images/motor_3.jpeg"
+    },
+    {
+      "id_number": "BTA-M-MIX-BB3-001",
+      "remarks": "Mixer",
+      "manufacturer": "Tatung",
+      "voltage": 1100,
+      "hp": 597,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_4.jpeg"
+    },
+    {
+      "id_number": "BTA-M-MIX-BB3-002",
+      "remarks": "Batch Off Mill",
+      "manufacturer": "westinghouse/GE",
+      "voltage": 440,
+      "hp": 259,
+      "ac_dc": "ac",
+      "statusId": 1,
+      "imgUrl": "../public/images/motor_5.jpeg"
+    },
+    {
+      "id_number": "BTA-M-MIX-BB4-001",
+      "remarks": "Mixer",
+      "manufacturer": "Kirloskar",
+      "voltage": 700,
+      "hp": 1500,
+      "ac_dc": "dc",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_6.jpeg"
+    },
+    {
+      "id_number": "BTA-M-MIX-BB4-002",
+      "remarks": "Mixer",
+      "manufacturer": "Reliance Electric",
+      "voltage": 700,
+      "hp": 1500,
+      "ac_dc": "ac",
+      "statusId": 4,
+      "imgUrl": "../public/images/motor_7.jpeg"
+    },
+    {
+      "id_number": "BTA-M-MIX-BB4-003",
+      "remarks": "Extruder",
+      "manufacturer": "Reliance Electric",
+      "voltage": 500,
+      "hp": 250,
+      "ac_dc": "dc",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_8.jpeg"
+    },
+    {
+      "id_number": "BTA-M-MIX-BB4-004",
+      "remarks": "Roll Die",
+      "manufacturer": "Reliance Electric",
+      "voltage": 500,
+      "hp": 250,
+      "ac_dc": "dc",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_9.jpeg"
+    },
+    {
+      "id_number": "BTA-M-CAL-4ROL-001",
+      "remarks": "Main Drive",
+      "manufacturer": "Reliance Electric",
+      "voltage": 500,
+      "hp": 250,
+      "ac_dc": "dc",
+      "statusId": 1,
+      "imgUrl": "../public/images/motor_10.jpeg"
+    },
+    {
+      "id_number": "BTA-M-CAL-4ROL-002",
+      "remarks": "CFE Cal",
+      "manufacturer": "Kirloskar",
+      "voltage": 500,
+      "hp": 400,
+      "ac_dc": "dc",
+      "statusId": 4,
+      "imgUrl": "../public/images/motor_11.jpeg"
+    },
+    {
+      "id_number": "BTA-M-CAL-3ROL-001",
+      "remarks": "S Pass",
+      "manufacturer": "Reliance Electric",
+      "voltage": 500,
+      "hp": 250,
+      "ac_dc": "dc",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_12.jpeg"
+    },
+    {
+      "id_number": "BTA-M-CAL-3ROL-002",
+      "remarks": "S Pass",
+      "manufacturer": "Reliance Electric",
+      "voltage": 500,
+      "hp": 250,
+      "ac_dc": "dc",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_13.jpeg"
+    },
+    {
+      "id_number": "BTA-M-EXT-8IN-001",
+      "remarks": "CFE Ext",
+      "manufacturer": "Kirloskar",
+      "voltage": 400,
+      "hp": 400,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_14.jpeg"
+    },
+    {
+      "id_number": "BTA-M-EXT-8IN-002",
+      "remarks": "Feed Mill Ext",
+      "manufacturer": "westinghouse",
+      "voltage": 300,
+      "hp": 300,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_15.jpeg"
+    },
+    {
+      "id_number": "BTA-M-EXT-8IN-002",
+      "remarks": "Feed Mill Phil",
+      "manufacturer": "General Electric",
+      "voltage": 460,
+      "hp": 150,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_16.jpeg"
+    },
+    {
+      "id_number": "BTA-M-EXT-3PLEX-001",
+      "remarks": "Small Ext",
+      "manufacturer": "Reliance Electric",
+      "voltage": 500,
+      "hp": 600,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_17.jpeg"
+    },
+    {
+      "id_number": "BTA-M-MIX-BB1-002",
+      "remarks": "Vacuum Hoist",
+      "manufacturer": "Motoribonora",
+      "voltage": 460,
+      "hp": 6.2,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_18.jpeg"
+    },
+    {
+      "id_number": "BTA-M-MIX-BB4-005",
+      "remarks": "TCU",
+      "manufacturer": "Elektrim",
+      "voltage": 460,
+      "hp": 20,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_19.jpeg"
+    },
+    {
+      "id_number": "BTA-M-EXT-3PLEX-002",
+      "remarks": "Skiver",
+      "manufacturer": "Baldor Electric",
+      "voltage": 460,
+      "hp": 3,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_20.jpeg"
+    },
+    {
+      "id_number": "BTA-M-EXT-8IN-003",
+      "remarks": "TCU",
+      "manufacturer": "App Kenji",
+      "voltage": 380,
+      "hp": 2,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_21.jpeg"
+    },
+    {
+      "id_number": "BTA-M-MIX-BB4-006",
+      "remarks": "Blower",
+      "manufacturer": "Primo",
+      "voltage": 415,
+      "hp": 2,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_22.jpeg"
+    },
+    {
+      "id_number": "BTA-M-EXT-10IN-001",
+      "remarks": "TCU",
+      "manufacturer": "App Kenji",
+      "voltage": 380,
+      "hp": 3,
+      "ac_dc": "ac",
+      "statusId": 2,
+      "imgUrl": "../public/images/motor_23.jpeg"
+    }
+  ]
+}

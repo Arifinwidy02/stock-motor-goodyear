@@ -1,0 +1,8 @@
+{
+  "Status": [
+    { "id": 1, "description": "ready" },
+    { "id": 2, "description": "broken" },
+    { "id": 3, "description": "repair" },
+    { "id": 4, "description": "used" }
+  ]
+}
