@@ -229,6 +229,72 @@
       "ac_dc": "ac",
       "statusId": 2,
       "imgUrl": "../public/images/motor_23.jpeg"
+    },
+    {
+      "id_number": "Testing-1",
+      "remarks": "TCU",
+      "manufacturer": "App Kenji",
+      "voltage": 380,
+      "hp": 3,
+      "ac_dc": "ac",
+      "statusId": 3,
+      "imgUrl": "../public/images/motor_23.jpeg",
+      "qrcode": "iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKvSURBVO3BQW7gSAwEwSxC//9yro88NSBI8o4JRsQfrDGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1y8VASfpPKHUm4Q6VLwm9SeaJYoxRrlGKNcvEylTcl4Usqd6i8KQlvKtYoxRqlWKNcfCwJd6jckYROpVPpkvCmJNyh8qVijVKsUYo1ysVwSehUJivWKMUapVijXAyThE6lS8KJyl9WrFGKNUqxRrn4mMr/KQmdSpeEJ1T+JcUapVijFGuUi5cl4f+k0iXhTUn4lxVrlGKNUqxR4g/+sCS8SeUvK9YoxRqlWKNcPJSETqVLwptUOpUuCZ3KSRJOkvAmlS8Va5RijVKsUS4eUumScKLypiR0Kl0SOpU7VLokdCpPJKFTeaJYoxRrlGKNEn/wQBI6lS4Jd6h0SThR6ZLQqXRJ6FS6JHQqJ0noVE6S0Km8qVijFGuUYo1y8ctUuiScqHRJ6JLQqXRJ6FROVE6ScJKEO5LQqTxRrFGKNUqxRrl4SOVNSThReSIJnUqXhE6lU+mS0KmcJOFLxRqlWKMUa5T4gz8sCZ3KSRLepHKShDtUnijWKMUapVijXDyUhN+k0qncodIloVPpknBHEjqV31SsUYo1SrFGuXiZypuScJKENyXhCZUuCZ3Kl4o1SrFGKdYoFx9Lwh0qb1I5SUKncpKEkyR0Kl0SOpU3FWuUYo1SrFEuhlH5kkqXhE7lROVLxRqlWKMUa5SLYZJwh0qXhE7lLynWKMUapVijXHxM5UsqJ0noVE5UTpJwRxI6lS4JncoTxRqlWKMUa5SLlyXhNyWhU+lUuiR0Kl0SOpUTlSdU3lSsUYo1SrFGiT9YYxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGuU/9H8Q6OuOZWUAAAAASUVORK5CYII="
+    },
+    {
+      "id_number": "Testing-2",
+      "remarks": "TCU",
+      "manufacturer": "App Kenji",
+      "voltage": 380,
+      "hp": 3,
+      "ac_dc": "ac",
+      "statusId": 1,
+      "imgUrl": "../public/images/motor_23.jpeg",
+      "qrcode": "iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALbSURBVO3BQYrkUAwFwUzh+1/5TS21+mDsKqaFIswHa4xijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKNcPKTyS0m4Q6VLQqfSJaFT+aUkPFGsUYo1SrFGuXhZEt6kcqLSJaFLQqfyRBLepPKmYo1SrFGKNcrFl6nckYQ7ktCpdEk4ScITKnck4ZuKNUqxRinWKBfDqZyodEn4y4o1SrFGKdYoF3+cykkSOpXJijVKsUYp1igXX5aEb0rCE0l4Ign/k2KNUqxRijXKxctUfkmlS0Kn0iWhU+mScKLyPyvWKMUapVijmA8GU+mSMFmxRinWKMUa5eIhlS4JnUqXhE6lS0Kn0iXhjiScqHRJuEOlS8KJSpeENxVrlGKNUqxRzAcvUumS0KnckYROpUtCp9IloVPpktCpdEnoVLokdCpPJOGJYo1SrFGKNcrFjyWhUzlRuSMJncoTKnck4UTlm4o1SrFGKdYoFw+p3KHSJaFT6ZJwovKEykkSOpVOpUvCSRI6lTcVa5RijVKsUcwHX6TSJaFT6ZLQqTyRhE6lS0KnckcS7lDpkvCmYo1SrFGKNYr54A9T6ZLwJpWTJHQqXRJOVLokPFGsUYo1SrFGuXhI5ZeS0CWhUzlJQqfSJaFLwonK/6RYoxRrlGKNcvGyJLxJ5YkknCThROUkCZ3KiUqXhDcVa5RijVKsUS6+TOWOJNyh0iXhDpUuCSdJeJNKl4QnijVKsUYp1igXf1wSOpUuCZ1Kl4ROpUvCicqJykkS3lSsUYo1SrFGufjjVLokdCpPqJwk4QmVLglPFGuUYo1SrFEuviwJ35SETqVLQqfSqZwkoVPpVE6S0Kl8U7FGKdYoxRrl4mUqv6TyRBI6lU6lS0Kn0iWhU+mS0Km8qVijFGuUYo1iPlhjFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUa5R/JiCQIZjLhQQAAAABJRU5ErkJggg=="
+    },
+    {
+      "id_number": "Testing-3",
+      "remarks": "TCU",
+      "manufacturer": "App Kenji",
+      "voltage": 380,
+      "hp": 3,
+      "ac_dc": "ac",
+      "statusId": 3,
+      "imgUrl": "../public/images/motor_23.jpeg",
+      "qrcode": "iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKeSURBVO3BQY6YUAwFwX4W979yJ0uvkNCHycRyVfyLNUaxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFEuDiXhJ6mcSMIdlS4JP0nlRLFGKdYoxRrl4mUqb0rCiSTcUXlC5U1JeFOxRinWKMUa5eJjSXhC5Ykk3FH5UhKeUPlSsUYp1ijFGuViGJUnktCp/M+KNUqxRinWKBfDJKFT6ZIwWbFGKdYoxRrl4mMqP0nljkqXhBMqv0mxRinWKMUa5eJlSfhNktCpnEjCb1asUYo1SrFGuTik8pupdEl4QuV/UqxRijVKsUa5OJSETqVLwptUOpUuCXdUuiTcScKbVL5UrFGKNUqxRrk4pNIl4QmVE0n4kkqXhE7lRBI6lRPFGqVYoxRrlIt/LAmdSpeEEypdEjqVLgmdSqfSJaFTuZOETuVNxRqlWKMUa5T4FweS8ITKiSQ8ofKmJHxJ5USxRinWKMUa5eKQypeS0KmcSEKn0iWhU+lUuiR0KneS8KVijVKsUYo1ysUvp3InCZ3KE0m4k4Q7KneS8JOKNUqxRinWKBeHkvCTVDqVLgmdSqfSJaFT6ZLwRBI6lZ9UrFGKNUqxRrl4mcqbknAnCXeS8EQSTqh0SehUvlSsUYo1SrFGufhYEp5QeZPKnSR0KneScCcJnUqXhE7lTcUapVijFGuUi2FU/iWVOypfKtYoxRqlWKNcDJeEOypdEjqV/0mxRinWKMUa5eJjKl9S6ZLQqTyhckelS0Kn0iWhU+mS0KmcKNYoxRqlWKNcvCwJPykJncqdJHQqXRI6lS4JncoJlTcVa5RijVKsUeJfrDGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo3yB9Nz/+HVN+a6AAAAAElFTkSuQmCC"
+    },
+    {
+      "id_number": "Testing-4",
+      "remarks": "TCU",
+      "manufacturer": "App Kenji",
+      "voltage": 380,
+      "hp": 3,
+      "ac_dc": "ac",
+      "statusId": 3,
+      "imgUrl": "../public/images/motor_23.jpeg",
+      "qrcode": "iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKqSURBVO3BQW7kQAwEwSxC//9yro88NSBIM7C5jIg/WGMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRrl4qEkfJNKl4Q7VLokdCpdEr5J5YlijVKsUYo1ysXLVN6UhCdUuiQ8ofKmJLypWKMUa5RijXLxYUm4Q+UOlTtUuiQ8kYQ7VD6pWKMUa5RijXLxxyXhROV/UqxRijVKsUa5+ONUuiR0SehUOpVJijVKsUYp1igXH6byTSrfpPKbFGuUYo1SrFEuXpaEb0pCp9IloVPpktCpnCThNyvWKMUapVijxB/8YUnoVP5nxRqlWKMUa5SLh5LQqXRJOFHpknCHykkSOpU7ktCpnCShU+mScKLyRLFGKdYoxRol/uCBJHQqdyShU/mmJHQqJ0noVJ5IQqfyRLFGKdYoxRol/uAXS8IdKnck4TdReaJYoxRrlGKNcvFQEjqVN6mcJKFLwonKHSp3JKFTOUnCm4o1SrFGKdYoFw+pnCThk1TuSEKn0iXhjiR0KidJ+KRijVKsUYo1ysWHqXxSEk5UOpU3qXRJ6FROVN5UrFGKNUqxRrl4KAnfpHKi0iWhU7kjCZ1Kl4STJHxTsUYp1ijFGuXiZSpvSsIdSehUuiQ8kYRO5SQJnconFWuUYo1SrFEuPiwJd6jcoXKShBOVkyR0Kl0SOpWTJJyoPFGsUYo1SrFGufjjktCpnKicJKFT+SSVNxVrlGKNUqxRLoZT6ZLQqdyRhE7lROWbijVKsUYp1igXH6bySSpdEu5IQqfSJeEkCScq31SsUYo1SrFGuXhZEr4pCScqXRLuUDlJQqdykoRO5U3FGqVYoxRrlPiDNUaxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFH+AXV0B+uhqlwWAAAAAElFTkSuQmCC"
+    },
+    {
+      "id_number": "Testing-5",
+      "remarks": "TCU",
+      "manufacturer": "App Kenji",
+      "voltage": 380,
+      "hp": 3,
+      "ac_dc": "ac",
+      "statusId": 3,
+      "imgUrl": "../public/images/motor_23.jpeg",
+      "qrcode": "iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKzSURBVO3BQW7gSAwEwSxC//9yro88NSBIMjxcRsQfrDGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1y8VASfpPKSRI6lS4JncpJEn6TyhPFGqVYoxRrlIuXqbwpCU8koVPpktCpnKi8KQlvKtYoxRqlWKNcfCwJd6jckYQ7kvCmJNyh8qVijVKsUYo1ysUwKnckYZJijVKsUYo1ysUwSehUuiRMVqxRijVKsUa5+JjKb1I5UemS8ITKX1KsUYo1SrFGuXhZEv6SJHQqTyThLyvWKMUapVijXDyk8pepdEm4Q+VfUqxRijVKsUa5eCgJnUqXhDepdCpdEjqVTqVLwkkS3qTypWKNUqxRijXKxS9T6ZJwotIl4UTlTSpdEjqVJ5LQqTxRrFGKNUqxRrn4mEqXhE7lJAmdykkS7lDpktCpdCpdEjqVkyR0Km8q1ijFGqVYo8QffCgJnUqXhE7lJAl3qLwpCV9SeaJYoxRrlGKNEn/woiR0Knck4Q6VLgl3qHRJ6FROktCpnCThROWJYo1SrFGKNUr8wT8sCZ1Kl4QvqZwk4Q6VJ4o1SrFGKdYoFw8l4TepdConKidJ6FS6JNyRhE7lNxVrlGKNUqxRLl6m8qYknCThRKVLwkkSnlDpktCpfKlYoxRrlGKNcvGxJNyh8qYkdCpdEjqVkyScJKFT6ZLQqbypWKMUa5RijXIxnMqbVE5UTlS+VKxRijVKsUa5+J9JQqfSJaFT6ZLQqfwlxRqlWKMUa5SLj6l8SeUkCZ3KicqJSpeETqVLQqfSJaFTeaJYoxRrlGKNcvGyJPymJNyRhE6lS0Kn0iWhU3lC5U3FGqVYoxRrlPiDNUaxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFH+A5BSFuI5tNJwAAAAAElFTkSuQmCC"
+    },
+    {
+      "id_number": "Testing-6",
+      "remarks": "TCU",
+      "manufacturer": "App Kenji",
+      "voltage": 380,
+      "hp": 3,
+      "ac_dc": "ac",
+      "statusId": 3,
+      "imgUrl": "../public/images/motor_23.jpeg",
+      "qrcode": "iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKtSURBVO3BQY6kAAwEwSyL/385t48+ISGgZ8briPjBGqNYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1igHNyXhm1SuSEKnckUSvknljmKNUqxRijXKwcNUnpSEK5LQqXRJOKNyRuVJSXhSsUYp1ijFGuXgZUm4QuWKJPykJFyh8qZijVKsUYo1ysF/RqVLwiTFGqVYoxRrlINhVLok/E+KNUqxRinWKAcvU/mmJJxR6ZJwh8pvUqxRijVKsUY5eFgSfpJKl4QnJeE3K9YoxRqlWKMc3KTymyShU+mScIXKX1KsUYo1SrFGObgpCZ1Kl4QnqXQqXRK6JHQqXRLOJOFJKm8q1ijFGqVYoxzcpNIloVPpktCpdEnoVLokdCpvUumS0KnckYRO5Y5ijVKsUYo1ysEPS8KZJHQqXRKuSEKn0iWhU+lUuiR0KmeS0Kk8qVijFGuUYo0SP7ghCZ3KmSR0Klck4YzKm5LwJpU7ijVKsUYp1ijxgwcl4Q6VLgmdypkkXKHSJaFTOZOETuVMEs6o3FGsUYo1SrFGiR/8YUnoVLokvEnlTBKuULmjWKMUa5RijXJwUxK+SaVTOaNyJgmdSpeEK5LQqXxTsUYp1ijFGuXgYSpPSsKZJDwpCXeodEnoVN5UrFGKNUqxRjl4WRKuUHmSypkkdCpnktAl4YxKl4RO5UnFGqVYoxRrlINhVN6kcofKm4o1SrFGKdYoB8Mk4QqVLgmdSpeETuU3KdYoxRqlWKMcvEzlTSpdEjqVK1TOqHRJ6FS6JHQqXRI6lTuKNUqxRinWKAcPS8I3JeGKJHQqXRI6lS4JncodKk8q1ijFGqVYo8QP1hjFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUb5B2sKB/R1PIxiAAAAAElFTkSuQmCC"
     }
   ]
 }

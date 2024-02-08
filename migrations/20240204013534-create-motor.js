@@ -34,7 +34,7 @@ module.exports = {
         },
       },
       imgUrl: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
       },
       isHiddenMotor: {
         type: Sequelize.BOOLEAN,
