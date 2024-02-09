@@ -130,6 +130,14 @@ class Controller {
       next(error);
     }
   }
+  static async findMotorById(req, res, next) {
+    try {
+      const motors = await motor.findByPk(req.params.id);
+      res.status(200).json(motors);
+    } catch (error) {
+      next(error);
+    }
+  }
   static async changeStatus(req, res, next) {
     const qrCode = req.body.qrcode;
     try {

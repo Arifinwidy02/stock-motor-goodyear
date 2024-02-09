@@ -24,7 +24,7 @@ module.exports = (sequelize, DataTypes) => {
       statusId: DataTypes.INTEGER,
       imgUrl: DataTypes.TEXT,
       isHiddenMotor: DataTypes.BOOLEAN,
-      qrcode: DataTypes.STRING,
+      qrcode: DataTypes.TEXT,
       // barcode: DataTypes.STRING,
     },
     {
