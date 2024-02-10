@@ -160,7 +160,10 @@ class Controller {
   }
   static async findMotorById(req, res, next) {
     try {
-      const motors = await motor.findByPk(req.params.id);
+      const motors = await motor.findOne({
+        where: { id: req.params.id },
+        include: [status],
+      });
       res.status(200).json(motors);
     } catch (error) {
       next(error);
