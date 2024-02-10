@@ -74,7 +74,7 @@ class Controller {
       const createdMotor = await motor.create(body);
 
       // // Generate and store the QR code using the 'id'
-      const qrcodeData = `MOTOR-${createdMotor.id}`; // Adjust as needed
+      const qrcodeData = `${createdMotor.id}`; // Adjust as needed
       const qrcodePng = await generateQRCode(qrcodeData);
 
       // // Update the created motor with the QR code
@@ -82,6 +82,14 @@ class Controller {
         { qrcode: qrcodePng.toString("base64") },
         { where: { id: createdMotor.id } }
       );
+      if (+createdMotor.statusId == 3) {
+        const body = {
+          order_date: new Date(),
+          motorId: createdMotor?.id,
+          statusId: createdMotor?.statusId,
+        };
+        await repair.create(body);
+      }
 
       res.status(200).json({
         message: `success add new motor`,
@@ -117,12 +125,32 @@ class Controller {
         voltage: +req.body.voltage,
         hp: +req.body.hp,
         ac_dc: req.body.ac_dc,
-        statusId: +motors.statusId,
+        statusId: +req.body.statusId, //+motors.statusId,
         imgUrl: req.body.imgUrl,
         isHiddenMotor: false,
       };
 
-      await motor.update(body, { where: { id: req.params.id } });
+      const updatedMotor = await motor.update(body, {
+        where: { id: req.params.id },
+      });
+      if (+req.body.statusId == 3) {
+        const body = {
+          order_date: new Date(),
+          motorId: +motors?.id,
+          statusId: +req.body.statusId,
+        };
+        await repair.create(body);
+      }
+      if (+req.body.statusId == 1 && motors.statusId == 3) {
+        const body = {
+          finish_date: new Date(),
+          statusId: +req.body.statusId,
+        };
+
+        await repair.update(body, {
+          where: { motorId: motors.id, statusId: 3 },
+        });
+      }
       res.status(200).json({
         message: `success update motor`,
       });
@@ -155,7 +183,6 @@ class Controller {
         await repair.create(body);
       }
       if (+req.body.statusId == 1) {
-        console.log("req.body.statusId:", req.body.statusId);
         const body = {
           finish_date: new Date(),
           statusId: +findMotor?.statusId,
