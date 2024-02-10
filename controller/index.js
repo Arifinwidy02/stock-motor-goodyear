@@ -51,7 +51,7 @@ class Controller {
   }
   static async allRepair(req, res, next) {
     try {
-      const data = await repair.findAll({ include: [status] });
+      const data = await repair.findAll({ include: [status, motor] });
       res.status(200).json(data);
     } catch (error) {
       next(error);
