@@ -14,7 +14,31 @@ class Controller {
   }
   static async motors(req, res, next) {
     const sortName = req.query.sortName;
-    const sortByType = req.query.sortByType;
+    const sortByType = req.query.sortByType || "ASC"; // Default sorting order
+
+    // Define valid sorting columns
+    const validSortColumns = [
+      "remarks",
+      "manufacturer",
+      "voltage",
+      "hp",
+      "ac_dc",
+      "name_plate",
+      "qrcode",
+      "status",
+    ];
+
+    // Validate the sortName
+    if (sortName && !validSortColumns.includes(sortName)) {
+      return res.status(400).json({ error: "Invalid sortName" });
+    }
+
+    // Sanitize and validate the sortByType
+    const sanitizedSortByType = sortByType.toUpperCase();
+    if (!["ASC", "DESC"].includes(sanitizedSortByType)) {
+      return res.status(400).json({ error: "Invalid sortByType" });
+    }
+
     const optionalFetching = req.query.id_number
       ? {
           where: {
@@ -31,7 +55,7 @@ class Controller {
           where: {
             isHiddenMotor: false,
           },
-          order: [[sortName, sortByType]],
+          order: [[sortName, sanitizedSortByType]],
           include: [status],
         }
       : {
@@ -49,6 +73,7 @@ class Controller {
       next(error);
     }
   }
+
   static async allRepair(req, res, next) {
     try {
       const data = await repair.findAll({ include: [status, motor] });
