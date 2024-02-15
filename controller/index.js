@@ -13,8 +13,12 @@ class Controller {
     }
   }
   static async motors(req, res, next) {
-    const sortName = req.query.sortName;
-    const sortByType = req.query.sortByType || "ASC"; // Default sorting order
+    // Extract the sortName and sortByType from the query parameters
+    const sortParam = req.query || "";
+    let sortName, sortByType;
+
+    sortName = Object.keys(req.query)[0] || "";
+    sortByType = sortParam[sortName];
 
     // Define valid sorting columns
     const validSortColumns = [
@@ -26,54 +30,47 @@ class Controller {
       "name_plate",
       "qrcode",
       "status",
+      "id_number",
     ];
+    const validSortName = validSortColumns.includes(sortName);
+    const validSortByType = ["ASC", "DESC"].includes(sortByType);
 
-    // Validate the sortName
-    if (sortName && !validSortColumns.includes(sortName)) {
-      return res.status(400).json({ error: "Invalid sortName" });
+    // Construct the `order` option for Sequelize
+    const order = [[sortName, sortByType]];
+
+    // Construct the `where` option for Sequelize, considering id_number search
+    const where = {
+      isHiddenMotor: false,
+    };
+
+    if (req.query.id_number && !validSortByType) {
+      where.id_number = {
+        [Sequelize.Op.iLike]: `%${req.query.id_number}%`,
+      };
     }
 
-    // Sanitize and validate the sortByType
-    const sanitizedSortByType = sortByType.toUpperCase();
-    if (!["ASC", "DESC"].includes(sanitizedSortByType)) {
-      return res.status(400).json({ error: "Invalid sortByType" });
-    }
-
-    const optionalFetching = req.query.id_number
-      ? {
-          where: {
-            isHiddenMotor: false,
-            id_number: {
-              [Sequelize.Op.iLike]: `%${req.query.id_number}%`,
-            },
-          },
-          order: [["id_number", "DESC"]],
-          include: [status],
-        }
-      : sortName
-      ? {
-          where: {
-            isHiddenMotor: false,
-          },
-          order: [[sortName, sanitizedSortByType]],
-          include: [status],
-        }
-      : {
-          where: {
-            isHiddenMotor: false,
-          },
-          order: [["id_number", "DESC"]], // Default sorting column, change as needed
-          include: [status],
-        };
+    // Build the final options object
+    const options =
+      validSortName && validSortByType
+        ? {
+            where,
+            order,
+            include: [status], // Replace with your appropriate includes
+          }
+        : {
+            where,
+            order: [["id_number", "DESC"]],
+            include: [status], // Replace with your appropriate includes
+          };
+    console.log("options:", options);
 
     try {
-      const data = await motor.findAll(optionalFetching);
+      const data = await motor.findAll(options);
       res.status(200).json(data);
     } catch (error) {
       next(error);
     }
   }
-
   static async allRepair(req, res, next) {
     try {
       const data = await repair.findAll({ include: [status, motor] });
