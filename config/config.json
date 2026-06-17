@@ -1,9 +1,6 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "postgres",
-    "database": "stock_motor",
-    "host": "127.0.0.1",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres"
   },
   "test": {
@@ -15,6 +12,7 @@
   },
   "production": {
     "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
         "rejectUnauthorized": false

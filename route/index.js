@@ -3,6 +3,9 @@ const router = express.Router(); // Create a Router instance
 
 const Controller = require("../controller");
 
+router.get("/", (req, res) => {
+  res.status(200).json({ message: "Welcome to Stock Motor Goodyear API" });
+});
 router.get("/dashboard", Controller.motors);
 router.get("/dashboard/repair", Controller.allRepair);
 router.get("/dashboard/status", Controller.allStatus);
