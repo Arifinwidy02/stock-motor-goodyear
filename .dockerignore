@@ -4,5 +4,4 @@ node_modules
 .gitignore
 Dockerfile
 .dockerignore
-docker-entrypoint.sh
 README.md
